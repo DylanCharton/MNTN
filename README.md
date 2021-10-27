@@ -6,5 +6,8 @@ This is not a project that is going to change a lot, I have some ideas but **not
 
 ## What does it look like ?
 
-[Here](https://mntn.krystonschwarze.com/) is Mr.Schwarze's realisation (with a very nice parallax effect by the way), his [design on Figma](https://www.figma.com/community/file/788675347108478517)
+[Here](https://mntn.krystonschwarze.com/) is Mr.Schwarze's realisation with a very nice parallax effect by the way. 
+
+His [design on Figma](https://www.figma.com/community/file/788675347108478517)
+
 And...I suppose you would like to see mine ? Well, [there you have it](https://www.figma.com/community/file/788675347108478517)
