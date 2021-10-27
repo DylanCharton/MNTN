@@ -1,0 +1,266 @@
+@font-face {
+    font-family: 'Chronicle Display Semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Chronicle Display Semibold'), url('fonts/Chronicle Display Semibold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Bold ☞'), url('fonts/Gilroy-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Gilroy-Regular ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Regular ☞'), url('fonts/Gilroy-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Medium ☞'), url('fonts/Gilroy-Medium.woff') format('woff');
+}
+
+* {
+    scroll-behavior: smooth;
+
+}
+
+header {
+    height: 100vw;
+    background-repeat: no-repeat;
+    background-image: url(img/BGtop2.svg);
+    background-size: cover;
+
+
+}
+
+
+body {
+    background: #0B1D26;
+}
+
+p {
+    color: #FFFFFF;
+    font-size: 1.3vw;
+    line-height: 1, 5vw;
+    font-family: "Gilroy-Regular ☞";
+
+
+
+}
+
+.follow {
+    transform: rotate(-90deg)
+}
+
+.rectangle {
+    width: 72px;
+    height: 2px;
+    background-color: #FBD784;
+
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 4.5vw;
+    font-family: "Chronicle Display Semibold";
+    margin: top 1px;
+
+}
+
+h2 {
+    color: #FFFFFF;
+    font-size: 3vw;
+    line-height: 3vw;
+    font-family: "Chronicle Display Semibold";
+
+}
+
+.mntn {
+    font-family: "Chronicle Display Semibold";
+    font-size: 1.5vw;
+    color: #FFFFFF;
+
+
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: transform .2s ease-out;
+    
+}
+
+a.mntn:hover {
+    color: #FFFFFF;
+}
+
+a:visited {
+    color: none;
+}
+
+nav li {
+    color: #FFFFFF;
+    list-style: none;
+    font-family: "Gilroy-Bold ☞";
+    font-size: 0.9rem;
+    transition: 0.2s;
+
+}
+
+nav li:hover {
+    color: #FBD784;
+    transform: translate(0, -3px);
+    transition: 0.4s;
+
+
+
+}
+
+.log {
+    color: #FFFFFF;
+    font-family: "Gilroy-Bold ☞";
+    font-size: 1vw;
+}
+
+.log:hover {
+    color: #fbd784 !important;
+}
+
+.nudge {
+    font-size: 0.8vw;
+    font-style: "Gilroy-Regular ☞";
+}
+
+.trait {
+    background-color: #FBD784;
+    height: 0.2vh;
+    width: 10vh;
+
+}
+
+.garniture {
+
+    color: #FBD784;
+    font-family: "Gilroy-Bold ☞";
+    letter-spacing: 0.4vw;
+    font-size: 0.7vw;
+}
+
+.readmore {
+    color: #FBD784;
+    font-size: 1.2vw;
+    line-height: 1, 5vw;
+    font-family: "Gilroy-Bold ☞";
+
+}
+
+.readmore:hover {
+    transform: translate(3px, 0);
+    color: #FBD784
+}
+
+.ressources {
+    font-family: "Gilroy-Medium ☞";
+    padding-top: 1.7vh;
+    transition: 0.2s;
+}
+
+.ressources:hover {
+    color: #FBD784;
+    transition : 0.2s
+}
+
+.footertitle {
+    font-family: "Gilroy-Bold ☞";
+    color: #FBD784;
+    font-size: 1.2vw;
+}
+
+#rotate-text {
+    transform: rotate(90deg);
+    font-family: "Gilroy-Regular ☞";
+    font-size: 1vw;
+}
+
+#logicon {
+    font-family: "Gilroy-Bold ☞";
+    transition : 0.4s;
+}
+
+#logicon:hover {
+    color: #fbd784 !important;
+    transition:0.4s;
+}
+
+#scrolldown {
+    font-family: "Gilroy-Bold ☞";
+    transition:0.3s;
+
+}
+
+#scrolldown:hover {
+    color: #FBD784;
+    transform: translate(0, 3px);
+    transition: 0.3s;
+
+}
+
+#one, #two, #three {
+    position: absolute;
+    top: -4rem;
+    font-family: "Gilroy-Bold ☞";
+    color: #FFFFFF;
+    font-size: 10vw;
+    opacity: 20%;
+}
+
+
+#copyright {
+    font-size: 0.8vw;
+    font-family: "Gilroy-Medium ☞";
+    opacity: 40%;
+}
+
+#first-content, #second-content, #third-content{
+    position: relative;
+}
+
+.kryston {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+
+}
+
+.kryston:hover {
+    color: #FFFFFF;
+}
+
+/* Media Queries */
+
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 6vw;
+    }
+
+    h2 {
+        font-size: 3.5vw;
+        margin-bottom: 2vw;
+        margin-top: 2vw;
+    }
+
+    .resume {
+        font-size: 2.5vw;
+    }
+
+    li {
+        font-size: 5vw;
+    }
+}
